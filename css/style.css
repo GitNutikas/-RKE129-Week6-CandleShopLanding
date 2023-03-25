@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+
+/*INTRO*/
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../images/image1.jpg');
+    background-size:cover ;
+    background-position: bottom;
+    height: 600px;
+    
+    /*move text (link) to the center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: rgba(89, 68, 49, 0.7);
+    border: 2px solid rgb(89, 68, 49);
+    color: rgb(235, 224, 212);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none; /*remove bottom line from link*/ 
+    text-shadow: 0 0 5px rgb(89, 68, 49);
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.05);
+}
+
+.intro-text {
+    background-color: rgb(89, 68, 49);
+    color: rgb(235, 224, 212);
+    height: 250px;
+ 
+    /*move text (link) to the center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.intro-text__textbox p {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+/*PACKAGING*/
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../images/image2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    
+    /*move text (link) to the center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: rgba(158, 193, 201, 0.7);
+    border: 2px solid rgb(158, 193, 201);
+    color: rgb(86, 87, 90);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    text-transform: uppercase;
+    text-decoration: none; /*remove bottom line from link*/ 
+    text-shadow: 0 0 5px rgb(158, 193, 201);
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.05);
+}
+
+.packaging-text {
+    background-color: rgb(158, 193, 201);
+    color: rgb(86, 87, 90);
+    height: 250px;
+ 
+    /*move text (link) to the center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging_text__textbox p {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+/*TUTORIAL*/
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../images/image3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+
+    /*move text (link) to the center*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: rgba(202, 190, 176, 0.7);
+    border: 2px solid rgb(202, 190, 176);
+    color: rgba(198,143,102,255);
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    padding-left: 22rem;
+    padding-right: 22rem;
+    text-transform: uppercase;
+    text-decoration: none; /*remove bottom line from link*/ 
+    text-shadow: 0 0 5px rgb(202, 190, 176);
+    transition: all 0.5s ease-in-out; 
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.05);
+}
+
+
+/*FOOTER*/
+.footer {
+    background-color: rgba(42, 58, 57, 0.7);
+    color: rgb(235, 224, 212);
+    font-size: 1.2rem;
+    height: 225px;
+    margin-top: -5rem;
+    padding-top: 7rem;
+
+    clip-path: polygon(50% 25%, 100% 0, 100% 100%, 0 100%, 0 20%);
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.footer a {
+    color: rgb(235, 224, 212);
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: rgb(42, 58, 57);
+    transform: scale(1.05);
+}
